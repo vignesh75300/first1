@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h4>Booking</h4>
+<form method="POST">
+<input type="hidden" name="ip" value="1.1.1.1">
+<label>Select cab Type:</label>
+<select name="cabtype" required>
+      <option disabled>-->Selcetvcab Type--</option>
+      <option value="MICRO">Micro</option>
+      <option value="MINI">Mini</option>
+      <option value="PRIME">Prime</option>   
+</select>
+<br/>
+Gst: <input type ="number" name="gst" value="10" readonly>
+<br/>
+<input type="checkbox" name="seniorcitizen" value="Y">SeniorCitizen
+<br>
+<label>Gender</label>
+<input type="radio" name="gender" value="M">Male
+<input type="radio" name="gender" value="M">Female
+<input type="radio" name="gender" value="M">other
+<br>
+<label for="Date">Journey Date</label>
+
+<input type="Date"  name="Journey Date" id="jorney Date" min="2021-04-19" max="2021-04-26" placeholder="YYYY-MM-DD" required><br/>
+<label for="Time">PickUp Time</label>
+<input type="Time"  name="PickUp Time" id="PickUp Time" placeholder="HH:MM" required><br/>
+<br/>
+
+<button>SUBMIT</button>
+<br>
+<a href="third.html">previous page</a>
+
+<a href="fifth.html">   next page</a>
+</form>
+</body>
+</html>
